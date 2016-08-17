@@ -48,6 +48,7 @@ public class MergeSort
 		}
 	}
 	
+	// The main method performs time complexities on an array of n random integers
 	public static void main(String[] args) 
 	{
 		long start, end;
