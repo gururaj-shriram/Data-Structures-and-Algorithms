@@ -1,4 +1,3 @@
-package Lab2;
 
 import java.util.Arrays;
 import java.util.Random;
@@ -40,7 +39,6 @@ public class RandomizedQuickSort
 
     public static int randomizedPartition(int[] arr, int p, int r)
     {
-		//Random rand = new Random();
 		int i = p + (int)(Math.random() * ((r - p) + 1));
 		swap(arr, r, i);
 		
@@ -57,6 +55,7 @@ public class RandomizedQuickSort
 		}
     }
 
+    // The main method performs time complexities on an array of n random integers
     public static void main(String[] args) 
     {
 		long start, end;
