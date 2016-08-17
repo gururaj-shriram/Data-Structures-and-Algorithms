@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class BinarySearchTree
 {
     public static final int MAX_NUMBER = 10000;
-	public Node root;
+    public Node root;
     
     public BinarySearchTree()
     {
